@@ -12,10 +12,7 @@ const makeQuery = (
 ) => {};
 
 type MakeQueryParameters = Parameters<typeof makeQuery>;
-
-const test = () => {};
-
-type Test = typeof test;
+type OptsType = Parameters<typeof makeQuery>[1];
 
 type tests = [
   Expect<
