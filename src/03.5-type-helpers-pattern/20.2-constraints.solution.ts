@@ -10,5 +10,5 @@ type tests = [
   // @ts-expect-error
   AddRoutePrefix<boolean>,
   // @ts-expect-error
-  AddRoutePrefix<number>,
+  AddRoutePrefix<number>
 ];

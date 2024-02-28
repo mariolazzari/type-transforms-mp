@@ -23,5 +23,5 @@ type tests = [
       GetParametersAndReturnType<(n: number, b: boolean) => number>,
       { params: [number, boolean]; returnValue: number }
     >
-  >,
+  >
 ];
