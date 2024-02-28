@@ -17,5 +17,5 @@ type tests = [
         commentName: string;
       }
     >
-  >,
+  >
 ];

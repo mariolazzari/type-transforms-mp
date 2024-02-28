@@ -6,5 +6,5 @@ type Path = "Users/John/Documents/notes.txt";
 type SplitPath = S.Split<Path, "/">;
 
 type tests = [
-  Expect<Equal<SplitPath, ["Users", "John", "Documents", "notes.txt"]>>,
+  Expect<Equal<SplitPath, ["Users", "John", "Documents", "notes.txt"]>>
 ];
