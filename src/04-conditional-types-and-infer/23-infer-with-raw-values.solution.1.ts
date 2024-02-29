@@ -13,5 +13,5 @@ type tests = [
   >,
   // Expect that if you pass in string, it
   // should return never
-  Expect<Equal<GetDataValue<string>, never>>,
+  Expect<Equal<GetDataValue<string>, never>>
 ];
