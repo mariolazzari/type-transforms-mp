@@ -36,5 +36,5 @@ type tests = [
         "/admin/users": {};
       }
     >
-  >,
+  >
 ];
