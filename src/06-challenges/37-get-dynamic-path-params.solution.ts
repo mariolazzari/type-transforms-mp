@@ -18,5 +18,5 @@ type tests = [
       ExtractPathParams<UserOrganisationPath>,
       { id: string; organisationId: string }
     >
-  >,
+  >
 ];
